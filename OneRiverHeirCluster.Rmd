@@ -73,18 +73,25 @@ There are still several variables that we want for analysis missing from the dat
 ## Deaths of Despair and Suicide Trend and Patterns
 
 ### Death of Despair 
-Defined as Drug Overdoses, Alcohol Related Deaths, Suicides, and Homicides, getting reliable county level estimates can be difficult, especially in rural areas. The CDC suppresses any county information where there are not at least 10 of each individual type of deaths. In areas with low population density, it can take 20+ years to get to 10 of these deaths. So, to fill in these blank data rates, the [2013 Urban and Rural classification](https://www.cdc.gov/nchs/data_access/urban_rural.htm) average values were used by county type (Metropolitan Core, Micropolitan, non-core, etc.) as a substitution. This was done in about 100 columns. 
+This data spanned a 5 year range from 2015-2019. Defined as Drug Overdoses, Alcohol Related Deaths, Suicides, and Homicides, getting reliable county level estimates can be difficult, especially in rural areas. The CDC suppresses any county information where there are not at least 10 of each individual type of deaths. In areas with low population density, it can take 20+ years to get to 10 of these deaths. So, to fill in these blank data rates, the [2013 Urban and Rural classification](https://www.cdc.gov/nchs/data_access/urban_rural.htm) average values were used by county type (Metropolitan Core, Micropolitan, non-core, etc.) as a substitution. This dataset deals with Non-Ignorable Missingness, meaning that the missing data trends toward rural areas. 
 
-```{r cars}
-summary(cars)
-```
+There are 180 counties that are suppressed with Suicide and Homicide Data:  
+- 3 Large Fringe Metro: All in Indiana  
+- 3 Medium Metro: All in Iowa  
+- 3 Small Metro: All in Kentucky  
+- 17 Micropolitan: 6 States  
+- 155 Non Core Metro: 12 States   
 
-## Including Plots
 
-You can also embed plots, for example:
+There are 222 counties that are suppressed for Alcohol and Drug Overdoses:  
+- 2 Large Fringe Metro: All in Mississippi  
+- 6 Medium Metro: 2 in Arkansas, 4 in Iowa  
+- 9 Small Metro: 3 States (KY, LA, MO)  
+- 24 Micropolitan: 6 States  
+- 183 Non Core Metro: 11 States (Not Ohio)  
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+

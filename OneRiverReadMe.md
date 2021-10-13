@@ -14,7 +14,6 @@ Mandy Liesch
     -   [Deaths of Despair and Suicide Trend and
         Patterns](#deaths-of-despair-and-suicide-trend-and-patterns)
         -   [Death of Despair](#death-of-despair)
-    -   [Including Plots](#including-plots)
 
 # Project Objectives
 
@@ -95,35 +94,31 @@ atlas.
 
 ### Death of Despair
 
-Defined as Drug Overdoses, Alcohol Related Deaths, Suicides, and
-Homicides, getting reliable county level estimates can be difficult,
-especially in rural areas. The CDC suppresses any county information
-where there are not at least 10 of each individual type of deaths. In
-areas with low population density, it can take 20+ years to get to 10 of
-these deaths. So, to fill in these blank data rates, the [2013 Urban and
-Rural
+This data spanned a 5 year range from 2015-2019. Defined as Drug
+Overdoses, Alcohol Related Deaths, Suicides, and Homicides, getting
+reliable county level estimates can be difficult, especially in rural
+areas. The CDC suppresses any county information where there are not at
+least 10 of each individual type of deaths. In areas with low population
+density, it can take 20+ years to get to 10 of these deaths. So, to fill
+in these blank data rates, the [2013 Urban and Rural
 classification](https://www.cdc.gov/nchs/data_access/urban_rural.htm)
 average values were used by county type (Metropolitan Core,
-Micropolitan, non-core, etc.) as a substitution. This was done in about
-100 columns.
+Micropolitan, non-core, etc.) as a substitution. This dataset deals with
+Non-Ignorable Missingness, meaning that the missing data trends toward
+rural areas.
 
-``` r
-summary(cars)
-```
+There are 180 counties that are suppressed with Suicide and Homicide
+Data:  
+- 3 Large Fringe Metro: All in Indiana  
+- 3 Medium Metro: All in Iowa  
+- 3 Small Metro: All in Kentucky  
+- 17 Micropolitan: 6 States  
+- 155 Non Core Metro: 12 States
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
-
-## Including Plots
-
-You can also embed plots, for example:
-
-![](OneRiverReadMe_files/figure-gfm/pressure-1.png)<!-- -->
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+There are 222 counties that are suppressed for Alcohol and Drug
+Overdoses:  
+- 2 Large Fringe Metro: All in Mississippi  
+- 6 Medium Metro: 2 in Arkansas, 4 in Iowa  
+- 9 Small Metro: 3 States (KY, LA, MO)  
+- 24 Micropolitan: 6 States  
+- 183 Non Core Metro: 11 States (Not Ohio)
