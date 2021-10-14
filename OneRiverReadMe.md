@@ -301,7 +301,6 @@ Large Central Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Illinois
 </td>
 <td style="text-align:left;">
 Large Fringe Metro
@@ -324,7 +323,6 @@ Large Fringe Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Illinois
 </td>
 <td style="text-align:left;">
 Medium Metro
@@ -347,7 +345,6 @@ Medium Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Illinois
 </td>
 <td style="text-align:left;">
 Small Metro
@@ -370,7 +367,6 @@ Small Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Illinois
 </td>
 <td style="text-align:left;">
 Micropolitan (Nonmetro)
@@ -393,7 +389,6 @@ Micropolitan (Nonmetro)
 </tr>
 <tr>
 <td style="text-align:left;">
-Illinois
 </td>
 <td style="text-align:left;">
 NonCore (Nonmetro)
@@ -439,7 +434,6 @@ Large Central Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Indiana
 </td>
 <td style="text-align:left;">
 Large Fringe Metro
@@ -462,7 +456,6 @@ Large Fringe Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Indiana
 </td>
 <td style="text-align:left;">
 Medium Metro
@@ -485,7 +478,6 @@ Medium Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Indiana
 </td>
 <td style="text-align:left;">
 Small Metro
@@ -508,7 +500,6 @@ Small Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Indiana
 </td>
 <td style="text-align:left;">
 Micropolitan (Nonmetro)
@@ -531,7 +522,6 @@ Micropolitan (Nonmetro)
 </tr>
 <tr>
 <td style="text-align:left;">
-Indiana
 </td>
 <td style="text-align:left;">
 NonCore (Nonmetro)
@@ -577,7 +567,6 @@ Medium Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Iowa
 </td>
 <td style="text-align:left;">
 Small Metro
@@ -600,7 +589,6 @@ Small Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Iowa
 </td>
 <td style="text-align:left;">
 Micropolitan (Nonmetro)
@@ -623,7 +611,6 @@ Micropolitan (Nonmetro)
 </tr>
 <tr>
 <td style="text-align:left;">
-Iowa
 </td>
 <td style="text-align:left;">
 NonCore (Nonmetro)
@@ -669,7 +656,6 @@ Large Central Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Kentucky
 </td>
 <td style="text-align:left;">
 Large Fringe Metro
@@ -692,7 +678,6 @@ Large Fringe Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Kentucky
 </td>
 <td style="text-align:left;">
 Medium Metro
@@ -715,7 +700,6 @@ Medium Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Kentucky
 </td>
 <td style="text-align:left;">
 Small Metro
@@ -738,7 +722,6 @@ Small Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Kentucky
 </td>
 <td style="text-align:left;">
 Micropolitan (Nonmetro)
@@ -761,7 +744,6 @@ Micropolitan (Nonmetro)
 </tr>
 <tr>
 <td style="text-align:left;">
-Kentucky
 </td>
 <td style="text-align:left;">
 NonCore (Nonmetro)
@@ -807,7 +789,6 @@ Large Central Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Louisiana
 </td>
 <td style="text-align:left;">
 Large Fringe Metro
@@ -830,7 +811,6 @@ Large Fringe Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Louisiana
 </td>
 <td style="text-align:left;">
 Medium Metro
@@ -853,7 +833,6 @@ Medium Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Louisiana
 </td>
 <td style="text-align:left;">
 Small Metro
@@ -876,7 +855,6 @@ Small Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Louisiana
 </td>
 <td style="text-align:left;">
 Micropolitan (Nonmetro)
@@ -899,7 +877,6 @@ Micropolitan (Nonmetro)
 </tr>
 <tr>
 <td style="text-align:left;">
-Louisiana
 </td>
 <td style="text-align:left;">
 NonCore (Nonmetro)
@@ -945,7 +922,6 @@ Large Central Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Minnesota
 </td>
 <td style="text-align:left;">
 Large Fringe Metro
@@ -968,7 +944,6 @@ Large Fringe Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Minnesota
 </td>
 <td style="text-align:left;">
 Medium Metro
@@ -991,7 +966,6 @@ Medium Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Minnesota
 </td>
 <td style="text-align:left;">
 Small Metro
@@ -1014,7 +988,6 @@ Small Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Minnesota
 </td>
 <td style="text-align:left;">
 Micropolitan (Nonmetro)
@@ -1037,7 +1010,6 @@ Micropolitan (Nonmetro)
 </tr>
 <tr>
 <td style="text-align:left;">
-Minnesota
 </td>
 <td style="text-align:left;">
 NonCore (Nonmetro)
@@ -1083,7 +1055,6 @@ Large Fringe Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Mississippi
 </td>
 <td style="text-align:left;">
 Medium Metro
@@ -1106,7 +1077,6 @@ Medium Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Mississippi
 </td>
 <td style="text-align:left;">
 Small Metro
@@ -1129,7 +1099,6 @@ Small Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Mississippi
 </td>
 <td style="text-align:left;">
 Micropolitan (Nonmetro)
@@ -1152,7 +1121,6 @@ Micropolitan (Nonmetro)
 </tr>
 <tr>
 <td style="text-align:left;">
-Mississippi
 </td>
 <td style="text-align:left;">
 NonCore (Nonmetro)
@@ -1198,7 +1166,6 @@ Large Central Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Missouri
 </td>
 <td style="text-align:left;">
 Large Fringe Metro
@@ -1221,7 +1188,6 @@ Large Fringe Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Missouri
 </td>
 <td style="text-align:left;">
 Medium Metro
@@ -1244,7 +1210,6 @@ Medium Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Missouri
 </td>
 <td style="text-align:left;">
 Small Metro
@@ -1267,7 +1232,6 @@ Small Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Missouri
 </td>
 <td style="text-align:left;">
 Micropolitan (Nonmetro)
@@ -1290,7 +1254,6 @@ Micropolitan (Nonmetro)
 </tr>
 <tr>
 <td style="text-align:left;">
-Missouri
 </td>
 <td style="text-align:left;">
 NonCore (Nonmetro)
@@ -1336,7 +1299,6 @@ Large Central Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Ohio
 </td>
 <td style="text-align:left;">
 Large Fringe Metro
@@ -1359,7 +1321,6 @@ Large Fringe Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Ohio
 </td>
 <td style="text-align:left;">
 Medium Metro
@@ -1382,7 +1343,6 @@ Medium Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Ohio
 </td>
 <td style="text-align:left;">
 Small Metro
@@ -1405,7 +1365,6 @@ Small Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Ohio
 </td>
 <td style="text-align:left;">
 Micropolitan (Nonmetro)
@@ -1428,7 +1387,6 @@ Micropolitan (Nonmetro)
 </tr>
 <tr>
 <td style="text-align:left;">
-Ohio
 </td>
 <td style="text-align:left;">
 NonCore (Nonmetro)
@@ -1474,7 +1432,6 @@ Large Central Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Tennessee
 </td>
 <td style="text-align:left;">
 Large Fringe Metro
@@ -1497,7 +1454,6 @@ Large Fringe Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Tennessee
 </td>
 <td style="text-align:left;">
 Medium Metro
@@ -1520,7 +1476,6 @@ Medium Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Tennessee
 </td>
 <td style="text-align:left;">
 Small Metro
@@ -1543,7 +1498,6 @@ Small Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Tennessee
 </td>
 <td style="text-align:left;">
 Micropolitan (Nonmetro)
@@ -1566,7 +1520,6 @@ Micropolitan (Nonmetro)
 </tr>
 <tr>
 <td style="text-align:left;">
-Tennessee
 </td>
 <td style="text-align:left;">
 NonCore (Nonmetro)
@@ -1612,7 +1565,6 @@ Large Central Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Wisconsin
 </td>
 <td style="text-align:left;">
 Large Fringe Metro
@@ -1635,7 +1587,6 @@ Large Fringe Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Wisconsin
 </td>
 <td style="text-align:left;">
 Medium Metro
@@ -1658,7 +1609,6 @@ Medium Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Wisconsin
 </td>
 <td style="text-align:left;">
 Small Metro
