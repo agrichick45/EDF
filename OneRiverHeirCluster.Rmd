@@ -98,6 +98,8 @@ There are 43 Counties with missing Diabetes data:
 - 6 Micropolitan: Arkansas, Kentucky, and Illinois  
 - 35 Non Core Metro: 7 States  
 
+### CDC Missing Data Replacements
+
 ```{r, echo=FALSE}
 #Load in the CDC File
 CDCCorr<-read.csv("CDCCorrections.csv")

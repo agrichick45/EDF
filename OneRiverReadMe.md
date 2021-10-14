@@ -14,6 +14,8 @@ Mandy Liesch
     -   [Missing Data](#missing-data)
         -   [Death of Despair](#death-of-despair)
         -   [Diabetes Mellitus Deaths](#diabetes-mellitus-deaths)
+        -   [CDC Missing Data
+            Replacements](#cdc-missing-data-replacements)
         -   [Firearm Fatalities](#firearm-fatalities)
 
 # Project Objectives
@@ -134,6 +136,8 @@ There are 43 Counties with missing Diabetes data:
 - 2 Large Fringe Metro: Both in Indiana  
 - 6 Micropolitan: Arkansas, Kentucky, and Illinois  
 - 35 Non Core Metro: 7 States
+
+### CDC Missing Data Replacements
 
 <table class="striped">
 <caption>
