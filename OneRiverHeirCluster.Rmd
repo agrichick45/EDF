@@ -115,7 +115,7 @@ table1<- CleanCDC %>%
   select(State, Urbanization, Suicide, Homicide, DrugOD, Alcohol, Diabetes)
 
 
-table1<-knitr::kable(table1)
+table1<-knitr::kable(table1, caption = "Average Defaults Used for Missing Data", digits = 2, table.attr = "class=\"striped\"", format = "html")
 
 table1
 

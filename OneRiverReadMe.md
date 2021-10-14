@@ -135,76 +135,1602 @@ There are 43 Counties with missing Diabetes data:
 - 6 Micropolitan: Arkansas, Kentucky, and Illinois  
 - 35 Non Core Metro: 7 States
 
-| State       | Urbanization            | Suicide | Homicide | DrugOD | Alcohol | Diabetes |
-|:------------|:------------------------|--------:|---------:|-------:|--------:|---------:|
-| Arkansas    | Large Fringe Metro      |    13.2 |     23.4 |   16.9 |    5.34 |     57.6 |
-| Arkansas    | Medium Metro            |    17.8 |      7.2 |   14.5 |    9.40 |     31.9 |
-| Arkansas    | Small Metro             |    19.8 |     12.4 |   17.9 |   10.00 |     29.7 |
-| Arkansas    | Micropolitan (Nonmetro) |    20.3 |      9.4 |   13.9 |   10.20 |     40.4 |
-| Arkansas    | NonCore (Nonmetro)      |    21.2 |      7.1 |   13.9 |   10.20 |     41.6 |
-| Illinois    | Large Central Metro     |     8.7 |     14.0 |   22.0 |    8.50 |     22.1 |
-| Illinois    | Large Fringe Metro      |    11.0 |      3.4 |   17.4 |    7.40 |     19.2 |
-| Illinois    | Medium Metro            |    14.7 |      7.0 |   25.5 |   11.80 |     24.8 |
-| Illinois    | Small Metro             |    13.9 |      5.2 |   19.7 |    9.60 |     21.7 |
-| Illinois    | Micropolitan (Nonmetro) |    16.6 |      2.6 |   17.8 |   10.20 |     28.2 |
-| Illinois    | NonCore (Nonmetro)      |    17.5 |      2.3 |   15.4 |    6.90 |     33.6 |
-| Indiana     | Large Central Metro     |    14.6 |     17.4 |   35.6 |   14.40 |     26.9 |
-| Indiana     | Large Fringe Metro      |    15.3 |      5.8 |   24.9 |    9.90 |     27.2 |
-| Indiana     | Medium Metro            |    14.9 |      7.5 |   21.7 |   12.90 |     32.1 |
-| Indiana     | Small Metro             |    15.4 |      4.0 |   21.1 |   11.80 |     28.3 |
-| Indiana     | Micropolitan (Nonmetro) |    16.1 |      3.2 |   22.9 |    9.30 |     39.6 |
-| Indiana     | NonCore (Nonmetro)      |    17.3 |      2.7 |   20.9 |    8.30 |     39.3 |
-| Iowa        | Medium Metro            |    15.7 |      3.5 |   14.5 |   12.80 |     22.8 |
-| Iowa        | Small Metro             |    12.6 |      2.3 |    8.1 |   10.90 |     22.6 |
-| Iowa        | Micropolitan (Nonmetro) |    17.7 |      3.0 |   10.9 |   14.40 |     36.6 |
-| Iowa        | NonCore (Nonmetro)      |    14.8 |      1.5 |    7.5 |   11.20 |     40.5 |
-| Kentucky    | Large Central Metro     |    17.0 |     13.3 |   41.7 |   13.00 |     27.5 |
-| Kentucky    | Large Fringe Metro      |    16.2 |      2.6 |   45.2 |   12.30 |     29.7 |
-| Kentucky    | Medium Metro            |    15.2 |      5.5 |   35.1 |   12.30 |     29.1 |
-| Kentucky    | Small Metro             |    17.1 |      4.9 |   17.3 |   10.20 |     31.0 |
-| Kentucky    | Micropolitan (Nonmetro) |    18.7 |      5.0 |   28.6 |    9.70 |     35.7 |
-| Kentucky    | NonCore (Nonmetro)      |    18.9 |      5.1 |   28.5 |    9.80 |     44.8 |
-| Louisiana   | Large Central Metro     |    11.8 |     34.8 |   39.0 |    6.60 |     25.7 |
-| Louisiana   | Large Fringe Metro      |    15.4 |     10.4 |   33.2 |    8.30 |     20.5 |
-| Louisiana   | Medium Metro            |    14.3 |     13.5 |   19.3 |    7.60 |     26.2 |
-| Louisiana   | Small Metro             |    16.7 |      9.9 |   21.9 |    7.40 |     36.5 |
-| Louisiana   | Micropolitan (Nonmetro) |    16.8 |     10.3 |   20.6 |    8.40 |     38.0 |
-| Louisiana   | NonCore (Nonmetro)      |    16.8 |      8.2 |   15.7 |    6.20 |     35.6 |
-| Minnesota   | Large Central Metro     |    12.2 |      4.0 |   17.4 |   13.70 |     20.5 |
-| Minnesota   | Large Fringe Metro      |    12.9 |      1.4 |   11.3 |   10.00 |     18.6 |
-| Minnesota   | Medium Metro            |    20.5 |      2.0 |   20.0 |   25.10 |     35.2 |
-| Minnesota   | Small Metro             |    13.0 |      1.4 |   10.7 |   11.20 |     19.0 |
-| Minnesota   | Micropolitan (Nonmetro) |    15.3 |      1.9 |   12.1 |   11.90 |     28.2 |
-| Minnesota   | NonCore (Nonmetro)      |    17.5 |      2.3 |   12.9 |   13.70 |     40.5 |
-| Mississippi | Large Fringe Metro      |    14.1 |      9.6 |   18.1 |    5.90 |     44.3 |
-| Mississippi | Medium Metro            |    15.5 |     12.4 |   14.2 |    7.40 |     28.2 |
-| Mississippi | Small Metro             |    14.5 |      8.4 |   12.6 |    3.20 |     26.4 |
-| Mississippi | Micropolitan (Nonmetro) |    12.7 |     14.1 |   10.4 |    7.10 |     44.9 |
-| Mississippi | NonCore (Nonmetro)      |    14.3 |     11.8 |   11.6 |    6.60 |     39.8 |
-| Missouri    | Large Central Metro     |    17.8 |     28.5 |   33.7 |   13.80 |     22.8 |
-| Missouri    | Large Fringe Metro      |    17.4 |      8.2 |   26.5 |    7.80 |     20.5 |
-| Missouri    | Medium Metro            |    21.6 |      4.5 |   24.2 |   12.70 |     24.2 |
-| Missouri    | Small Metro             |    17.7 |      5.4 |   13.6 |    7.40 |     28.7 |
-| Missouri    | Micropolitan (Nonmetro) |    20.8 |      4.5 |   18.5 |    7.30 |     33.9 |
-| Missouri    | NonCore (Nonmetro)      |    20.7 |      4.9 |   16.7 |    8.70 |     35.1 |
-| Ohio        | Large Central Metro     |    13.0 |     11.2 |   40.1 |   10.10 |     27.6 |
-| Ohio        | Large Fringe Metro      |    14.3 |      2.7 |   33.3 |    8.90 |     24.8 |
-| Ohio        | Medium Metro            |    16.5 |      6.9 |   41.9 |   11.80 |     34.2 |
-| Ohio        | Small Metro             |    16.5 |      5.3 |   41.9 |    9.80 |     44.6 |
-| Ohio        | Micropolitan (Nonmetro) |    16.5 |      2.8 |   32.0 |    9.20 |     40.5 |
-| Ohio        | NonCore (Nonmetro)      |    15.9 |      3.4 |   27.1 |    8.30 |     40.1 |
-| Tennessee   | Large Central Metro     |    11.8 |     18.1 |   28.1 |   10.20 |     25.9 |
-| Tennessee   | Large Fringe Metro      |    16.8 |      4.6 |   23.9 |    9.40 |     20.1 |
-| Tennessee   | Medium Metro            |    17.9 |      6.1 |   34.6 |   14.70 |     29.8 |
-| Tennessee   | Small Metro             |    18.5 |      5.2 |   23.9 |   13.40 |     31.8 |
-| Tennessee   | Micropolitan (Nonmetro) |    21.3 |      3.9 |   24.7 |   13.20 |     37.4 |
-| Tennessee   | NonCore (Nonmetro)      |    21.7 |      5.5 |   25.3 |   11.50 |     40.4 |
-| Wisconsin   | Large Central Metro     |    12.4 |     14.7 |   36.0 |   15.50 |     25.6 |
-| Wisconsin   | Large Fringe Metro      |    13.8 |      1.6 |   15.9 |    9.30 |     22.8 |
-| Wisconsin   | Medium Metro            |    14.4 |      1.8 |   17.1 |   11.00 |     18.0 |
-| Wisconsin   | Small Metro             |    16.5 |      2.0 |   15.8 |   13.30 |     24.3 |
-| Wisconsin   | Micropolitan (Nonmetro) |    16.2 |      1.5 |   16.3 |   14.10 |     29.0 |
-| Wisconsin   | NonCore (Nonmetro)      |    18.0 |      1.8 |   13.2 |   16.80 |     35.5 |
+<table class="striped">
+<caption>
+Average Defaults Used for Missing Data
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+State
+</th>
+<th style="text-align:left;">
+Urbanization
+</th>
+<th style="text-align:right;">
+Suicide
+</th>
+<th style="text-align:right;">
+Homicide
+</th>
+<th style="text-align:right;">
+DrugOD
+</th>
+<th style="text-align:right;">
+Alcohol
+</th>
+<th style="text-align:right;">
+Diabetes
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Arkansas
+</td>
+<td style="text-align:left;">
+Large Fringe Metro
+</td>
+<td style="text-align:right;">
+13.2
+</td>
+<td style="text-align:right;">
+23.4
+</td>
+<td style="text-align:right;">
+16.9
+</td>
+<td style="text-align:right;">
+5.34
+</td>
+<td style="text-align:right;">
+57.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Arkansas
+</td>
+<td style="text-align:left;">
+Medium Metro
+</td>
+<td style="text-align:right;">
+17.8
+</td>
+<td style="text-align:right;">
+7.2
+</td>
+<td style="text-align:right;">
+14.5
+</td>
+<td style="text-align:right;">
+9.40
+</td>
+<td style="text-align:right;">
+31.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Arkansas
+</td>
+<td style="text-align:left;">
+Small Metro
+</td>
+<td style="text-align:right;">
+19.8
+</td>
+<td style="text-align:right;">
+12.4
+</td>
+<td style="text-align:right;">
+17.9
+</td>
+<td style="text-align:right;">
+10.00
+</td>
+<td style="text-align:right;">
+29.7
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Arkansas
+</td>
+<td style="text-align:left;">
+Micropolitan (Nonmetro)
+</td>
+<td style="text-align:right;">
+20.3
+</td>
+<td style="text-align:right;">
+9.4
+</td>
+<td style="text-align:right;">
+13.9
+</td>
+<td style="text-align:right;">
+10.20
+</td>
+<td style="text-align:right;">
+40.4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Arkansas
+</td>
+<td style="text-align:left;">
+NonCore (Nonmetro)
+</td>
+<td style="text-align:right;">
+21.2
+</td>
+<td style="text-align:right;">
+7.1
+</td>
+<td style="text-align:right;">
+13.9
+</td>
+<td style="text-align:right;">
+10.20
+</td>
+<td style="text-align:right;">
+41.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Illinois
+</td>
+<td style="text-align:left;">
+Large Central Metro
+</td>
+<td style="text-align:right;">
+8.7
+</td>
+<td style="text-align:right;">
+14.0
+</td>
+<td style="text-align:right;">
+22.0
+</td>
+<td style="text-align:right;">
+8.50
+</td>
+<td style="text-align:right;">
+22.1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Illinois
+</td>
+<td style="text-align:left;">
+Large Fringe Metro
+</td>
+<td style="text-align:right;">
+11.0
+</td>
+<td style="text-align:right;">
+3.4
+</td>
+<td style="text-align:right;">
+17.4
+</td>
+<td style="text-align:right;">
+7.40
+</td>
+<td style="text-align:right;">
+19.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Illinois
+</td>
+<td style="text-align:left;">
+Medium Metro
+</td>
+<td style="text-align:right;">
+14.7
+</td>
+<td style="text-align:right;">
+7.0
+</td>
+<td style="text-align:right;">
+25.5
+</td>
+<td style="text-align:right;">
+11.80
+</td>
+<td style="text-align:right;">
+24.8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Illinois
+</td>
+<td style="text-align:left;">
+Small Metro
+</td>
+<td style="text-align:right;">
+13.9
+</td>
+<td style="text-align:right;">
+5.2
+</td>
+<td style="text-align:right;">
+19.7
+</td>
+<td style="text-align:right;">
+9.60
+</td>
+<td style="text-align:right;">
+21.7
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Illinois
+</td>
+<td style="text-align:left;">
+Micropolitan (Nonmetro)
+</td>
+<td style="text-align:right;">
+16.6
+</td>
+<td style="text-align:right;">
+2.6
+</td>
+<td style="text-align:right;">
+17.8
+</td>
+<td style="text-align:right;">
+10.20
+</td>
+<td style="text-align:right;">
+28.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Illinois
+</td>
+<td style="text-align:left;">
+NonCore (Nonmetro)
+</td>
+<td style="text-align:right;">
+17.5
+</td>
+<td style="text-align:right;">
+2.3
+</td>
+<td style="text-align:right;">
+15.4
+</td>
+<td style="text-align:right;">
+6.90
+</td>
+<td style="text-align:right;">
+33.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Indiana
+</td>
+<td style="text-align:left;">
+Large Central Metro
+</td>
+<td style="text-align:right;">
+14.6
+</td>
+<td style="text-align:right;">
+17.4
+</td>
+<td style="text-align:right;">
+35.6
+</td>
+<td style="text-align:right;">
+14.40
+</td>
+<td style="text-align:right;">
+26.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Indiana
+</td>
+<td style="text-align:left;">
+Large Fringe Metro
+</td>
+<td style="text-align:right;">
+15.3
+</td>
+<td style="text-align:right;">
+5.8
+</td>
+<td style="text-align:right;">
+24.9
+</td>
+<td style="text-align:right;">
+9.90
+</td>
+<td style="text-align:right;">
+27.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Indiana
+</td>
+<td style="text-align:left;">
+Medium Metro
+</td>
+<td style="text-align:right;">
+14.9
+</td>
+<td style="text-align:right;">
+7.5
+</td>
+<td style="text-align:right;">
+21.7
+</td>
+<td style="text-align:right;">
+12.90
+</td>
+<td style="text-align:right;">
+32.1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Indiana
+</td>
+<td style="text-align:left;">
+Small Metro
+</td>
+<td style="text-align:right;">
+15.4
+</td>
+<td style="text-align:right;">
+4.0
+</td>
+<td style="text-align:right;">
+21.1
+</td>
+<td style="text-align:right;">
+11.80
+</td>
+<td style="text-align:right;">
+28.3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Indiana
+</td>
+<td style="text-align:left;">
+Micropolitan (Nonmetro)
+</td>
+<td style="text-align:right;">
+16.1
+</td>
+<td style="text-align:right;">
+3.2
+</td>
+<td style="text-align:right;">
+22.9
+</td>
+<td style="text-align:right;">
+9.30
+</td>
+<td style="text-align:right;">
+39.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Indiana
+</td>
+<td style="text-align:left;">
+NonCore (Nonmetro)
+</td>
+<td style="text-align:right;">
+17.3
+</td>
+<td style="text-align:right;">
+2.7
+</td>
+<td style="text-align:right;">
+20.9
+</td>
+<td style="text-align:right;">
+8.30
+</td>
+<td style="text-align:right;">
+39.3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Iowa
+</td>
+<td style="text-align:left;">
+Medium Metro
+</td>
+<td style="text-align:right;">
+15.7
+</td>
+<td style="text-align:right;">
+3.5
+</td>
+<td style="text-align:right;">
+14.5
+</td>
+<td style="text-align:right;">
+12.80
+</td>
+<td style="text-align:right;">
+22.8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Iowa
+</td>
+<td style="text-align:left;">
+Small Metro
+</td>
+<td style="text-align:right;">
+12.6
+</td>
+<td style="text-align:right;">
+2.3
+</td>
+<td style="text-align:right;">
+8.1
+</td>
+<td style="text-align:right;">
+10.90
+</td>
+<td style="text-align:right;">
+22.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Iowa
+</td>
+<td style="text-align:left;">
+Micropolitan (Nonmetro)
+</td>
+<td style="text-align:right;">
+17.7
+</td>
+<td style="text-align:right;">
+3.0
+</td>
+<td style="text-align:right;">
+10.9
+</td>
+<td style="text-align:right;">
+14.40
+</td>
+<td style="text-align:right;">
+36.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Iowa
+</td>
+<td style="text-align:left;">
+NonCore (Nonmetro)
+</td>
+<td style="text-align:right;">
+14.8
+</td>
+<td style="text-align:right;">
+1.5
+</td>
+<td style="text-align:right;">
+7.5
+</td>
+<td style="text-align:right;">
+11.20
+</td>
+<td style="text-align:right;">
+40.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kentucky
+</td>
+<td style="text-align:left;">
+Large Central Metro
+</td>
+<td style="text-align:right;">
+17.0
+</td>
+<td style="text-align:right;">
+13.3
+</td>
+<td style="text-align:right;">
+41.7
+</td>
+<td style="text-align:right;">
+13.00
+</td>
+<td style="text-align:right;">
+27.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kentucky
+</td>
+<td style="text-align:left;">
+Large Fringe Metro
+</td>
+<td style="text-align:right;">
+16.2
+</td>
+<td style="text-align:right;">
+2.6
+</td>
+<td style="text-align:right;">
+45.2
+</td>
+<td style="text-align:right;">
+12.30
+</td>
+<td style="text-align:right;">
+29.7
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kentucky
+</td>
+<td style="text-align:left;">
+Medium Metro
+</td>
+<td style="text-align:right;">
+15.2
+</td>
+<td style="text-align:right;">
+5.5
+</td>
+<td style="text-align:right;">
+35.1
+</td>
+<td style="text-align:right;">
+12.30
+</td>
+<td style="text-align:right;">
+29.1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kentucky
+</td>
+<td style="text-align:left;">
+Small Metro
+</td>
+<td style="text-align:right;">
+17.1
+</td>
+<td style="text-align:right;">
+4.9
+</td>
+<td style="text-align:right;">
+17.3
+</td>
+<td style="text-align:right;">
+10.20
+</td>
+<td style="text-align:right;">
+31.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kentucky
+</td>
+<td style="text-align:left;">
+Micropolitan (Nonmetro)
+</td>
+<td style="text-align:right;">
+18.7
+</td>
+<td style="text-align:right;">
+5.0
+</td>
+<td style="text-align:right;">
+28.6
+</td>
+<td style="text-align:right;">
+9.70
+</td>
+<td style="text-align:right;">
+35.7
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Kentucky
+</td>
+<td style="text-align:left;">
+NonCore (Nonmetro)
+</td>
+<td style="text-align:right;">
+18.9
+</td>
+<td style="text-align:right;">
+5.1
+</td>
+<td style="text-align:right;">
+28.5
+</td>
+<td style="text-align:right;">
+9.80
+</td>
+<td style="text-align:right;">
+44.8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Louisiana
+</td>
+<td style="text-align:left;">
+Large Central Metro
+</td>
+<td style="text-align:right;">
+11.8
+</td>
+<td style="text-align:right;">
+34.8
+</td>
+<td style="text-align:right;">
+39.0
+</td>
+<td style="text-align:right;">
+6.60
+</td>
+<td style="text-align:right;">
+25.7
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Louisiana
+</td>
+<td style="text-align:left;">
+Large Fringe Metro
+</td>
+<td style="text-align:right;">
+15.4
+</td>
+<td style="text-align:right;">
+10.4
+</td>
+<td style="text-align:right;">
+33.2
+</td>
+<td style="text-align:right;">
+8.30
+</td>
+<td style="text-align:right;">
+20.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Louisiana
+</td>
+<td style="text-align:left;">
+Medium Metro
+</td>
+<td style="text-align:right;">
+14.3
+</td>
+<td style="text-align:right;">
+13.5
+</td>
+<td style="text-align:right;">
+19.3
+</td>
+<td style="text-align:right;">
+7.60
+</td>
+<td style="text-align:right;">
+26.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Louisiana
+</td>
+<td style="text-align:left;">
+Small Metro
+</td>
+<td style="text-align:right;">
+16.7
+</td>
+<td style="text-align:right;">
+9.9
+</td>
+<td style="text-align:right;">
+21.9
+</td>
+<td style="text-align:right;">
+7.40
+</td>
+<td style="text-align:right;">
+36.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Louisiana
+</td>
+<td style="text-align:left;">
+Micropolitan (Nonmetro)
+</td>
+<td style="text-align:right;">
+16.8
+</td>
+<td style="text-align:right;">
+10.3
+</td>
+<td style="text-align:right;">
+20.6
+</td>
+<td style="text-align:right;">
+8.40
+</td>
+<td style="text-align:right;">
+38.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Louisiana
+</td>
+<td style="text-align:left;">
+NonCore (Nonmetro)
+</td>
+<td style="text-align:right;">
+16.8
+</td>
+<td style="text-align:right;">
+8.2
+</td>
+<td style="text-align:right;">
+15.7
+</td>
+<td style="text-align:right;">
+6.20
+</td>
+<td style="text-align:right;">
+35.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Minnesota
+</td>
+<td style="text-align:left;">
+Large Central Metro
+</td>
+<td style="text-align:right;">
+12.2
+</td>
+<td style="text-align:right;">
+4.0
+</td>
+<td style="text-align:right;">
+17.4
+</td>
+<td style="text-align:right;">
+13.70
+</td>
+<td style="text-align:right;">
+20.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Minnesota
+</td>
+<td style="text-align:left;">
+Large Fringe Metro
+</td>
+<td style="text-align:right;">
+12.9
+</td>
+<td style="text-align:right;">
+1.4
+</td>
+<td style="text-align:right;">
+11.3
+</td>
+<td style="text-align:right;">
+10.00
+</td>
+<td style="text-align:right;">
+18.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Minnesota
+</td>
+<td style="text-align:left;">
+Medium Metro
+</td>
+<td style="text-align:right;">
+20.5
+</td>
+<td style="text-align:right;">
+2.0
+</td>
+<td style="text-align:right;">
+20.0
+</td>
+<td style="text-align:right;">
+25.10
+</td>
+<td style="text-align:right;">
+35.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Minnesota
+</td>
+<td style="text-align:left;">
+Small Metro
+</td>
+<td style="text-align:right;">
+13.0
+</td>
+<td style="text-align:right;">
+1.4
+</td>
+<td style="text-align:right;">
+10.7
+</td>
+<td style="text-align:right;">
+11.20
+</td>
+<td style="text-align:right;">
+19.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Minnesota
+</td>
+<td style="text-align:left;">
+Micropolitan (Nonmetro)
+</td>
+<td style="text-align:right;">
+15.3
+</td>
+<td style="text-align:right;">
+1.9
+</td>
+<td style="text-align:right;">
+12.1
+</td>
+<td style="text-align:right;">
+11.90
+</td>
+<td style="text-align:right;">
+28.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Minnesota
+</td>
+<td style="text-align:left;">
+NonCore (Nonmetro)
+</td>
+<td style="text-align:right;">
+17.5
+</td>
+<td style="text-align:right;">
+2.3
+</td>
+<td style="text-align:right;">
+12.9
+</td>
+<td style="text-align:right;">
+13.70
+</td>
+<td style="text-align:right;">
+40.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mississippi
+</td>
+<td style="text-align:left;">
+Large Fringe Metro
+</td>
+<td style="text-align:right;">
+14.1
+</td>
+<td style="text-align:right;">
+9.6
+</td>
+<td style="text-align:right;">
+18.1
+</td>
+<td style="text-align:right;">
+5.90
+</td>
+<td style="text-align:right;">
+44.3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mississippi
+</td>
+<td style="text-align:left;">
+Medium Metro
+</td>
+<td style="text-align:right;">
+15.5
+</td>
+<td style="text-align:right;">
+12.4
+</td>
+<td style="text-align:right;">
+14.2
+</td>
+<td style="text-align:right;">
+7.40
+</td>
+<td style="text-align:right;">
+28.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mississippi
+</td>
+<td style="text-align:left;">
+Small Metro
+</td>
+<td style="text-align:right;">
+14.5
+</td>
+<td style="text-align:right;">
+8.4
+</td>
+<td style="text-align:right;">
+12.6
+</td>
+<td style="text-align:right;">
+3.20
+</td>
+<td style="text-align:right;">
+26.4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mississippi
+</td>
+<td style="text-align:left;">
+Micropolitan (Nonmetro)
+</td>
+<td style="text-align:right;">
+12.7
+</td>
+<td style="text-align:right;">
+14.1
+</td>
+<td style="text-align:right;">
+10.4
+</td>
+<td style="text-align:right;">
+7.10
+</td>
+<td style="text-align:right;">
+44.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mississippi
+</td>
+<td style="text-align:left;">
+NonCore (Nonmetro)
+</td>
+<td style="text-align:right;">
+14.3
+</td>
+<td style="text-align:right;">
+11.8
+</td>
+<td style="text-align:right;">
+11.6
+</td>
+<td style="text-align:right;">
+6.60
+</td>
+<td style="text-align:right;">
+39.8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Missouri
+</td>
+<td style="text-align:left;">
+Large Central Metro
+</td>
+<td style="text-align:right;">
+17.8
+</td>
+<td style="text-align:right;">
+28.5
+</td>
+<td style="text-align:right;">
+33.7
+</td>
+<td style="text-align:right;">
+13.80
+</td>
+<td style="text-align:right;">
+22.8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Missouri
+</td>
+<td style="text-align:left;">
+Large Fringe Metro
+</td>
+<td style="text-align:right;">
+17.4
+</td>
+<td style="text-align:right;">
+8.2
+</td>
+<td style="text-align:right;">
+26.5
+</td>
+<td style="text-align:right;">
+7.80
+</td>
+<td style="text-align:right;">
+20.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Missouri
+</td>
+<td style="text-align:left;">
+Medium Metro
+</td>
+<td style="text-align:right;">
+21.6
+</td>
+<td style="text-align:right;">
+4.5
+</td>
+<td style="text-align:right;">
+24.2
+</td>
+<td style="text-align:right;">
+12.70
+</td>
+<td style="text-align:right;">
+24.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Missouri
+</td>
+<td style="text-align:left;">
+Small Metro
+</td>
+<td style="text-align:right;">
+17.7
+</td>
+<td style="text-align:right;">
+5.4
+</td>
+<td style="text-align:right;">
+13.6
+</td>
+<td style="text-align:right;">
+7.40
+</td>
+<td style="text-align:right;">
+28.7
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Missouri
+</td>
+<td style="text-align:left;">
+Micropolitan (Nonmetro)
+</td>
+<td style="text-align:right;">
+20.8
+</td>
+<td style="text-align:right;">
+4.5
+</td>
+<td style="text-align:right;">
+18.5
+</td>
+<td style="text-align:right;">
+7.30
+</td>
+<td style="text-align:right;">
+33.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Missouri
+</td>
+<td style="text-align:left;">
+NonCore (Nonmetro)
+</td>
+<td style="text-align:right;">
+20.7
+</td>
+<td style="text-align:right;">
+4.9
+</td>
+<td style="text-align:right;">
+16.7
+</td>
+<td style="text-align:right;">
+8.70
+</td>
+<td style="text-align:right;">
+35.1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ohio
+</td>
+<td style="text-align:left;">
+Large Central Metro
+</td>
+<td style="text-align:right;">
+13.0
+</td>
+<td style="text-align:right;">
+11.2
+</td>
+<td style="text-align:right;">
+40.1
+</td>
+<td style="text-align:right;">
+10.10
+</td>
+<td style="text-align:right;">
+27.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ohio
+</td>
+<td style="text-align:left;">
+Large Fringe Metro
+</td>
+<td style="text-align:right;">
+14.3
+</td>
+<td style="text-align:right;">
+2.7
+</td>
+<td style="text-align:right;">
+33.3
+</td>
+<td style="text-align:right;">
+8.90
+</td>
+<td style="text-align:right;">
+24.8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ohio
+</td>
+<td style="text-align:left;">
+Medium Metro
+</td>
+<td style="text-align:right;">
+16.5
+</td>
+<td style="text-align:right;">
+6.9
+</td>
+<td style="text-align:right;">
+41.9
+</td>
+<td style="text-align:right;">
+11.80
+</td>
+<td style="text-align:right;">
+34.2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ohio
+</td>
+<td style="text-align:left;">
+Small Metro
+</td>
+<td style="text-align:right;">
+16.5
+</td>
+<td style="text-align:right;">
+5.3
+</td>
+<td style="text-align:right;">
+41.9
+</td>
+<td style="text-align:right;">
+9.80
+</td>
+<td style="text-align:right;">
+44.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ohio
+</td>
+<td style="text-align:left;">
+Micropolitan (Nonmetro)
+</td>
+<td style="text-align:right;">
+16.5
+</td>
+<td style="text-align:right;">
+2.8
+</td>
+<td style="text-align:right;">
+32.0
+</td>
+<td style="text-align:right;">
+9.20
+</td>
+<td style="text-align:right;">
+40.5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ohio
+</td>
+<td style="text-align:left;">
+NonCore (Nonmetro)
+</td>
+<td style="text-align:right;">
+15.9
+</td>
+<td style="text-align:right;">
+3.4
+</td>
+<td style="text-align:right;">
+27.1
+</td>
+<td style="text-align:right;">
+8.30
+</td>
+<td style="text-align:right;">
+40.1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tennessee
+</td>
+<td style="text-align:left;">
+Large Central Metro
+</td>
+<td style="text-align:right;">
+11.8
+</td>
+<td style="text-align:right;">
+18.1
+</td>
+<td style="text-align:right;">
+28.1
+</td>
+<td style="text-align:right;">
+10.20
+</td>
+<td style="text-align:right;">
+25.9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tennessee
+</td>
+<td style="text-align:left;">
+Large Fringe Metro
+</td>
+<td style="text-align:right;">
+16.8
+</td>
+<td style="text-align:right;">
+4.6
+</td>
+<td style="text-align:right;">
+23.9
+</td>
+<td style="text-align:right;">
+9.40
+</td>
+<td style="text-align:right;">
+20.1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tennessee
+</td>
+<td style="text-align:left;">
+Medium Metro
+</td>
+<td style="text-align:right;">
+17.9
+</td>
+<td style="text-align:right;">
+6.1
+</td>
+<td style="text-align:right;">
+34.6
+</td>
+<td style="text-align:right;">
+14.70
+</td>
+<td style="text-align:right;">
+29.8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tennessee
+</td>
+<td style="text-align:left;">
+Small Metro
+</td>
+<td style="text-align:right;">
+18.5
+</td>
+<td style="text-align:right;">
+5.2
+</td>
+<td style="text-align:right;">
+23.9
+</td>
+<td style="text-align:right;">
+13.40
+</td>
+<td style="text-align:right;">
+31.8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tennessee
+</td>
+<td style="text-align:left;">
+Micropolitan (Nonmetro)
+</td>
+<td style="text-align:right;">
+21.3
+</td>
+<td style="text-align:right;">
+3.9
+</td>
+<td style="text-align:right;">
+24.7
+</td>
+<td style="text-align:right;">
+13.20
+</td>
+<td style="text-align:right;">
+37.4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tennessee
+</td>
+<td style="text-align:left;">
+NonCore (Nonmetro)
+</td>
+<td style="text-align:right;">
+21.7
+</td>
+<td style="text-align:right;">
+5.5
+</td>
+<td style="text-align:right;">
+25.3
+</td>
+<td style="text-align:right;">
+11.50
+</td>
+<td style="text-align:right;">
+40.4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wisconsin
+</td>
+<td style="text-align:left;">
+Large Central Metro
+</td>
+<td style="text-align:right;">
+12.4
+</td>
+<td style="text-align:right;">
+14.7
+</td>
+<td style="text-align:right;">
+36.0
+</td>
+<td style="text-align:right;">
+15.50
+</td>
+<td style="text-align:right;">
+25.6
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wisconsin
+</td>
+<td style="text-align:left;">
+Large Fringe Metro
+</td>
+<td style="text-align:right;">
+13.8
+</td>
+<td style="text-align:right;">
+1.6
+</td>
+<td style="text-align:right;">
+15.9
+</td>
+<td style="text-align:right;">
+9.30
+</td>
+<td style="text-align:right;">
+22.8
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wisconsin
+</td>
+<td style="text-align:left;">
+Medium Metro
+</td>
+<td style="text-align:right;">
+14.4
+</td>
+<td style="text-align:right;">
+1.8
+</td>
+<td style="text-align:right;">
+17.1
+</td>
+<td style="text-align:right;">
+11.00
+</td>
+<td style="text-align:right;">
+18.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wisconsin
+</td>
+<td style="text-align:left;">
+Small Metro
+</td>
+<td style="text-align:right;">
+16.5
+</td>
+<td style="text-align:right;">
+2.0
+</td>
+<td style="text-align:right;">
+15.8
+</td>
+<td style="text-align:right;">
+13.30
+</td>
+<td style="text-align:right;">
+24.3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wisconsin
+</td>
+<td style="text-align:left;">
+Micropolitan (Nonmetro)
+</td>
+<td style="text-align:right;">
+16.2
+</td>
+<td style="text-align:right;">
+1.5
+</td>
+<td style="text-align:right;">
+16.3
+</td>
+<td style="text-align:right;">
+14.10
+</td>
+<td style="text-align:right;">
+29.0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wisconsin
+</td>
+<td style="text-align:left;">
+NonCore (Nonmetro)
+</td>
+<td style="text-align:right;">
+18.0
+</td>
+<td style="text-align:right;">
+1.8
+</td>
+<td style="text-align:right;">
+13.2
+</td>
+<td style="text-align:right;">
+16.80
+</td>
+<td style="text-align:right;">
+35.5
+</td>
+</tr>
+</tbody>
+</table>
 
 ### Firearm Fatalities
 
