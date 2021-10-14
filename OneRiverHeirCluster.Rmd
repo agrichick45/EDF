@@ -93,18 +93,31 @@ There are 222 counties that are suppressed for Alcohol and Drug Overdoses:
 ### Diabetes Mellitus Deaths
 Deaths from Diabetes were calculated over the five year span of 2015-2019 from the CDC Wonder Data. Like the Deaths from Despair Data, there are several counties with less than 10 deaths. 
 
-There are 43 Counties with missing Diabetes data:  
-- 2 Large Fringe Metro: Both in Indiana
-- 6 Micropolitan: Arkansas, Kentucky, and Illinois
-- 35 Non Core Metro: 7 States
+There are 43 Counties with missing Diabetes data:   
+- 2 Large Fringe Metro: Both in Indiana  
+- 6 Micropolitan: Arkansas, Kentucky, and Illinois  
+- 35 Non Core Metro: 7 States  
 
 ```{r, echo=FALSE}
 #Load in the CDC File
 CDCCorr<-read.csv("CDCCorrections.csv")
 #Remove all values that don't have a metro designation.
-CleanCDC<-CDCCorr[CDCCorr$X2013.Urbanization != "", ]
-#Print out the First Table
-table1<-knitr::kable(CleanCDC)
+CleanCDC<-as_tibble(CDCCorr[CDCCorr$X2013.Urbanization != "", ])
+CleanCDC$State<-CleanCDC$ï..State
+CleanCDC$ï..State<-NULL
+CleanCDC$State.Code<-NULL
+CleanCDC$Urbanization<-CleanCDC$X2013.Urbanization
+CleanCDC$X2013.Urbanization<-NULL
+CleanCDC$Homicide<-CleanCDC$Homicide.Rate
+CleanCDC$Homicide.Rate<-NULL
+#Rename the variables
+table1<- CleanCDC %>%
+  select(State, Urbanization, Suicide, Homicide, DrugOD, Alcohol, Diabetes)
+
+
+table1<-knitr::kable(table1)
+
+table1
 
 ```
 
