@@ -1,4 +1,4 @@
-Final Clustering Results
+Environmental Justice Metadata
 ================
 Mandy Liesch
 10/11/2021
@@ -45,23 +45,23 @@ county and zip code levels. For this project, we are using the County
 data.
 
 Including:  
-\* American Community Survey (ACS)  
-\* Area Health Resources Files (AHRF)  
-\* Foundation for AIDS Research (amfAR)  
-\* U.S. Census County Business Patterns (CCBP)  
-\* Centers for Disease Control and Prevention Interactive Atlas of Heart
+- American Community Survey (ACS)  
+- Area Health Resources Files (AHRF)  
+- Foundation for AIDS Research (amfAR)  
+- U.S. Census County Business Patterns (CCBP)  
+- Centers for Disease Control and Prevention Interactive Atlas of Heart
 Disease and Stroke (CDC Atlas)  
-\* Centers for Disease Control and Prevention Wide-ranging ONline Data
+- Centers for Disease Control and Prevention Wide-ranging ONline Data
 for Epidemiologic Research (CDC WONDER)  
-\* County Health Rankings (CHR)  
-\* Civil Rights Data Collection (CRDC)  
-\* Medicare Advantage Penetration (MAP)  
-\* National Environmental Public Health Tracking Network (NEPHTN)  
-\* National Center for Health Statistics (NCHS) Urban-Rural
+- County Health Rankings (CHR)  
+- Civil Rights Data Collection (CRDC)  
+- Medicare Advantage Penetration (MAP)  
+- National Environmental Public Health Tracking Network (NEPHTN)  
+- National Center for Health Statistics (NCHS) Urban-Rural
 Classification Scheme  
-\* Nursing Home Compare (NHC)  
-\* Social Vulnerability Index (SVI)  
-\* U.S. Cancer Statistics (USCS)
+- Nursing Home Compare (NHC)  
+- Social Vulnerability Index (SVI)  
+- U.S. Cancer Statistics (USCS)
 
 ### Social Capital Index
 

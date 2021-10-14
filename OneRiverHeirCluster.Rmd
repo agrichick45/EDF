@@ -1,5 +1,5 @@
 ---
-title: "Final Clustering Results"
+title: "Environmental Justice Metadata"
 author: "Mandy Liesch"
 date: "10/11/2021"
 
@@ -43,23 +43,23 @@ There are several different datasets that were utilized to build the One River D
 [Social Determinants of Health](https://www.ahrq.gov/sdoh/data-analytics/sdoh-data.html): Looking at the [documentation](https://www.ahrq.gov/sites/default/files/wysiwyg/sdohchallenge/data/sdoh_data_file_documentation.pdf), it aggregates several sources of health data. Data is availabe at both county and zip code levels. For this project, we are using the County data.  
 
 Including:  
-* American Community Survey (ACS)  
-* Area Health Resources Files (AHRF)   
-* Foundation for AIDS Research (amfAR)  
-* U.S. Census County Business Patterns (CCBP)  
-* Centers for Disease Control and Prevention Interactive Atlas of Heart
+- American Community Survey (ACS)  
+- Area Health Resources Files (AHRF)   
+- Foundation for AIDS Research (amfAR)  
+- U.S. Census County Business Patterns (CCBP)  
+- Centers for Disease Control and Prevention Interactive Atlas of Heart
 Disease and Stroke (CDC Atlas)  
-* Centers for Disease Control and Prevention Wide-ranging ONline Data for
+- Centers for Disease Control and Prevention Wide-ranging ONline Data for
 Epidemiologic Research (CDC WONDER)  
-* County Health Rankings (CHR)  
-* Civil Rights Data Collection (CRDC)  
-* Medicare Advantage Penetration (MAP)  
-* National Environmental Public Health Tracking Network (NEPHTN)  
-* National Center for Health Statistics (NCHS) Urban-Rural Classification
+- County Health Rankings (CHR)  
+- Civil Rights Data Collection (CRDC)  
+- Medicare Advantage Penetration (MAP)  
+- National Environmental Public Health Tracking Network (NEPHTN)  
+- National Center for Health Statistics (NCHS) Urban-Rural Classification
 Scheme  
-* Nursing Home Compare (NHC)  
-* Social Vulnerability Index (SVI)  
-* U.S. Cancer Statistics (USCS)  
+- Nursing Home Compare (NHC)  
+- Social Vulnerability Index (SVI)  
+- U.S. Cancer Statistics (USCS)  
 
 ### Social Capital Index
 Along with the social determinents of health database, the [Social Capital Index (SoCI)](https://www.researchgate.net/publication/337813421_Capturing_Bonding_Bridging_and_Linking_Social_Capital_through_Publicly_Available_Data) uses 19 indicators of public data to determine which communities are more capable of disaster resilience, based on how communities are organized and researched. They use three categories (bonding, bridging, and linking) to design an overall index by county. The base indicators that are not well represented with the above dataset were added into the Social Determinants of Health Dataset. 
