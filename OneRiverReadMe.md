@@ -190,7 +190,6 @@ Large Fringe Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Arkansas
 </td>
 <td style="text-align:left;">
 Medium Metro
@@ -213,7 +212,6 @@ Medium Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Arkansas
 </td>
 <td style="text-align:left;">
 Small Metro
@@ -236,7 +234,6 @@ Small Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Arkansas
 </td>
 <td style="text-align:left;">
 Micropolitan (Nonmetro)
@@ -259,7 +256,6 @@ Micropolitan (Nonmetro)
 </tr>
 <tr>
 <td style="text-align:left;">
-Arkansas
 </td>
 <td style="text-align:left;">
 NonCore (Nonmetro)
@@ -1685,7 +1681,6 @@ Small Metro
 </tr>
 <tr>
 <td style="text-align:left;">
-Wisconsin
 </td>
 <td style="text-align:left;">
 Micropolitan (Nonmetro)
@@ -1708,7 +1703,6 @@ Micropolitan (Nonmetro)
 </tr>
 <tr>
 <td style="text-align:left;">
-Wisconsin
 </td>
 <td style="text-align:left;">
 NonCore (Nonmetro)
