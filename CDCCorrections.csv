@@ -1,0 +1,82 @@
+﻿State,State Code,2013 Urbanization,Suicide,Homicide Rate,DrugOD,Alcohol,Diabetes
+Arkansas,5,Large Fringe Metro,13.2,23.4,16.9,5.34,57.6
+Arkansas,5,Medium Metro,17.8,7.2,14.5,9.4,31.9
+Arkansas,5,Small Metro,19.8,12.4,17.9,10,29.7
+Arkansas,5,Micropolitan (Nonmetro),20.3,9.4,13.9,10.2,40.4
+Arkansas,5,NonCore (Nonmetro),21.2,7.1,13.9,10.2,41.6
+Arkansas,5,,19.1,8.5,14.7,9.7,35.5
+Illinois,17,Large Central Metro,8.7,14,22,8.5,22.1
+Illinois,17,Large Fringe Metro,11,3.4,17.4,7.4,19.2
+Illinois,17,Medium Metro,14.7,7,25.5,11.8,24.8
+Illinois,17,Small Metro,13.9,5.2,19.7,9.6,21.7
+Illinois,17,Micropolitan (Nonmetro),16.6,2.6,17.8,10.2,28.2
+Illinois,17,NonCore (Nonmetro),17.5,2.3,15.4,6.9,33.6
+Illinois,17,,11.2,8,20,8.5,22.3
+Indiana,18,Large Central Metro,14.6,17.4,35.6,14.4,26.9
+Indiana,18,Large Fringe Metro,15.3,5.8,24.9,9.9,27.2
+Indiana,18,Medium Metro,14.9,7.5,21.7,12.9,32.1
+Indiana,18,Small Metro,15.4,4,21.1,11.8,28.3
+Indiana,18,Micropolitan (Nonmetro),16.1,3.2,22.9,9.3,39.6
+Indiana,18,NonCore (Nonmetro),17.3,2.7,20.9,8.3,39.3
+Indiana,18,,15.4,6.8,24.7,11.1,30.8
+Iowa,19,Medium Metro,15.7,3.5,14.5,12.8,22.8
+Iowa,19,Small Metro,12.6,2.3,8.1,10.9,22.6
+Iowa,19,Micropolitan (Nonmetro),17.7,3,10.9,14.4,36.6
+Iowa,19,NonCore (Nonmetro),14.8,1.5,7.5,11.2,40.5
+Iowa,19,,15.2,2.7,10.8,12.2,29.3
+Kentucky,21,Large Central Metro,17,13.3,41.7,13,27.5
+Kentucky,21,Large Fringe Metro,16.2,2.6,45.2,12.3,29.7
+Kentucky,21,Medium Metro,15.2,5.5,35.1,12.3,29.1
+Kentucky,21,Small Metro,17.1,4.9,17.3,10.2,31
+Kentucky,21,Micropolitan (Nonmetro),18.7,5,28.6,9.7,35.7
+Kentucky,21,NonCore (Nonmetro),18.9,5.1,28.5,9.8,44.8
+Kentucky,21,,17.3,6.2,33.3,11.2,33.8
+Louisiana,22,Large Central Metro,11.8,34.8,39,6.6,25.7
+Louisiana,22,Large Fringe Metro,15.4,10.4,33.2,8.3,20.5
+Louisiana,22,Medium Metro,14.3,13.5,19.3,7.6,26.2
+Louisiana,22,Small Metro,16.7,9.9,21.9,7.4,36.5
+Louisiana,22,Micropolitan (Nonmetro),16.8,10.3,20.6,8.4,38
+Louisiana,22,NonCore (Nonmetro),16.8,8.2,15.7,6.2,35.6
+Louisiana,22,,15.2,13.4,23.9,7.6,28.7
+Minnesota,27,Large Central Metro,12.2,4,17.4,13.7,20.5
+Minnesota,27,Large Fringe Metro,12.9,1.4,11.3,10,18.6
+Minnesota,27,Medium Metro,20.5,2,20,25.1,35.2
+Minnesota,27,Small Metro,13,1.4,10.7,11.2,19
+Minnesota,27,Micropolitan (Nonmetro),15.3,1.9,12.1,11.9,28.2
+Minnesota,27,NonCore (Nonmetro),17.5,2.3,12.9,13.7,40.5
+Minnesota,27,,13.7,2.4,13.8,12.6,23.4
+Mississippi,28,Large Fringe Metro,14.1,9.6,18.1,5.9,44.3
+Mississippi,28,Medium Metro,15.5,12.4,14.2,7.4,28.2
+Mississippi,28,Small Metro,14.5,8.4,12.6,3.2,26.4
+Mississippi,28,Micropolitan (Nonmetro),12.7,14.1,10.4,7.1,44.9
+Mississippi,28,NonCore (Nonmetro),14.3,11.8,11.6,6.6,39.8
+Mississippi,28,,14.2,12.4,12.7,6.8,37.3
+Missouri,29,Large Central Metro,17.8,28.5,33.7,13.8,22.8
+Missouri,29,Large Fringe Metro,17.4,8.2,26.5,7.8,20.5
+Missouri,29,Medium Metro,21.6,4.5,24.2,12.7,24.2
+Missouri,29,Small Metro,17.7,5.4,13.6,7.4,28.7
+Missouri,29,Micropolitan (Nonmetro),20.8,4.5,18.5,7.3,33.9
+Missouri,29,NonCore (Nonmetro),20.7,4.9,16.7,8.7,35.1
+Missouri,29,,18.7,10,23.7,9.2,25.7
+Ohio,39,Large Central Metro,13,11.2,40.1,10.1,27.6
+Ohio,39,Large Fringe Metro,14.3,2.7,33.3,8.9,24.8
+Ohio,39,Medium Metro,16.5,6.9,41.9,11.8,34.2
+Ohio,39,Small Metro,16.5,5.3,41.9,9.8,44.6
+Ohio,39,Micropolitan (Nonmetro),16.5,2.8,32,9.2,40.5
+Ohio,39,NonCore (Nonmetro),15.9,3.4,27.1,8.3,40.1
+Ohio,39,,15,6.4,37.4,10.1,32
+Tennessee,47,Large Central Metro,11.8,18.1,28.1,10.2,25.9
+Tennessee,47,Large Fringe Metro,16.8,4.6,23.9,9.4,20.1
+Tennessee,47,Medium Metro,17.9,6.1,34.6,14.7,29.8
+Tennessee,47,Small Metro,18.5,5.2,23.9,13.4,31.8
+Tennessee,47,Micropolitan (Nonmetro),21.3,3.9,24.7,13.2,37.4
+Tennessee,47,NonCore (Nonmetro),21.7,5.5,25.3,11.5,40.4
+Tennessee,47,,17.1,8.3,27.9,12,29.1
+Wisconsin,55,Large Central Metro,12.4,14.7,36,15.5,25.6
+Wisconsin,55,Large Fringe Metro,13.8,1.6,15.9,9.3,22.8
+Wisconsin,55,Medium Metro,14.4,1.8,17.1,11,18
+Wisconsin,55,Small Metro,16.5,2,15.8,13.3,24.3
+Wisconsin,55,Micropolitan (Nonmetro),16.2,1.5,16.3,14.1,29
+Wisconsin,55,NonCore (Nonmetro),18,1.8,13.2,16.8,35.5
+Wisconsin,55,,15.2,3.9,19.1,13.2,25.2
+,,,15.1,7.3,23.8,10.3,28.4

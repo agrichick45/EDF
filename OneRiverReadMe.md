@@ -11,9 +11,10 @@ Mandy Liesch
         -   [Social Capital Index](#social-capital-index)
         -   [ESRI County Health Rankings](#esri-county-health-rankings)
         -   [Atlas of Rural America](#atlas-of-rural-america)
-    -   [Deaths of Despair and Suicide Trend and
-        Patterns](#deaths-of-despair-and-suicide-trend-and-patterns)
+    -   [Missing Data](#missing-data)
         -   [Death of Despair](#death-of-despair)
+        -   [Diabetes Mellitus Deaths](#diabetes-mellitus-deaths)
+        -   [Firearm Fatalities](#firearm-fatalities)
 
 # Project Objectives
 
@@ -90,7 +91,7 @@ this site looks at variables of people, economic, and jobs data. The
 website above documents the maps and processes used to create this
 atlas.
 
-## Deaths of Despair and Suicide Trend and Patterns
+## Missing Data
 
 ### Death of Despair
 
@@ -122,3 +123,18 @@ Overdoses:
 - 9 Small Metro: 3 States (KY, LA, MO)  
 - 24 Micropolitan: 6 States  
 - 183 Non Core Metro: 11 States (Not Ohio)
+
+### Diabetes Mellitus Deaths
+
+Deaths from Diabetes were calculated over the five year span of
+2015-2019 from the CDC Wonder Data. Like the Deaths from Despair Data,
+there are several counties with less than 10 deaths.
+
+There are 43 Counties with missing Diabetes data:  
+- 2 Large Fringe Metro: Both in Indiana - 6 Micropolitan: Arkansas,
+Kentucky, and Illinois - 35 Non Core Metro: 7 States
+
+### Firearm Fatalities
+
+The same five year span was used to calculate all firearm fatalities
+from the CDC Wonder Data.
