@@ -1,0 +1,75 @@
+---
+title: "ClusteringAlgorithm1"
+author: "Mandy Liesch"
+date: "10/28/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)  # data manipulation
+library(cluster)    # clustering algorithms
+library(factoextra) # clustering visualization
+library(dendextend) # for comparing two dendrograms
+``` 
+
+```{r}
+oneRiver<-read.csv('OneRiver1.csv')
+NASS2017<-read.csv('NASS2017.csv')
+countyWater<-read.csv('countyWaterViol.csv')
+totalData<-merge(oneRiver, NASS2017, by.x='FIPSCODE', by.y='FIPS', all.x=TRUE)
+totalData<-merge(totalData, countyWater, by.x='FIPSCODE', by.y= 'GEOINT', all.x=TRUE)
+
+row.names(totalData) <- totalData$FIPSCODE
+#remove the data not needed for clustering
+clustData<-totalData[9:377]
+
+
+#change market value to numeric
+clustData$MARKET_VALUE<-as.numeric(gsub(",", "", clustData$MARKET_VALUE))
+
+clustData[1:369] <- lapply(clustData[1:369], as.numeric)
+clustData[is.na(clustData)] <- 0
+#Scale the data
+normal<-scale(clustData)
+
+dist_mat <- dist(normal, method = 'euclidean')
+
+hc1 <- hclust(dist_mat, method = "ward.D" )
+
+plot(hc1, cex = 0.25, hang = -1)
+
+m <- c( "average", "single", "complete", "ward")
+names(m) <- c( "average", "single", "complete", "ward")
+
+# function to compute coefficient
+ac <- function(x) {
+  agnes(dist_mat, method = x)$ac
+}
+
+map_dbl(m, ac)
+
+hc4 <- diana(dist_mat)
+
+hc4$dc
+
+
+hc5 <- hclust(dist_mat, method = "ward.D2" )
+
+# Cut tree into 4 groups
+sub_grp <- cutree(hc5, k = 5)
+plot(hc5, cex = 0.6)
+rect.hclust(hc5, k = 5, border = 2:5)
+
+# Number of members in each cluster
+table(sub_grp)
+
+clustData<-clustData %>%
+  mutate(cluster = sub_grp)
+
+fviz_cluster(list(data = clustData, cluster = sub_grp))
+
+fviz_nbclust(clustData, FUN = hcut, method = "wss")
