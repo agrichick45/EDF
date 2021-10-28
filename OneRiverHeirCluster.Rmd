@@ -755,6 +755,110 @@ table1<-knitr::kable(table1, caption = "Average Defaults Used for Missing Data",
 ### Firearm Fatalities
 The same five year span was used to calculate all firearm fatalities from the CDC Wonder Data. 
 
+# Spatial Data by Census Tract/Block Group
+
+There are several different geospatial analysis that need to be done to get the spatial and environmental data into this analysis. 
+
+## Census Tract GIS Shapefile
+
+The Census tract shapefiles were downloaded from the [TIGER Shapefile](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) website. The individual state census tracts were then [merged](https://www.esri.com/arcgis-blog/products/arcgis-desktop/mapping/merging-multiple-shapefiles-into-a-single-shapefile/) in ArcMap 10.8.1. All shapefiles with 0 acres of land area were removed from analysis (located mostly in coastal counties and in the Great Lakes Region). 
+
+### Census Tract Population 
+
+ 
+The overall estimatd census block population was pulled from the [2019 American Community Data Survey](https://data.census.gov/cedsci/) on the census bureau website. Population density (per/km) was calculated from the total land area of the census block. This shapefile for total population density was converted into a raster file.
+ 
+### Current Environmental Hazards
+
+Energy infrastructure and pipeline shapefiles from the [US Energy Administration](https://www.eia.gov/maps/layer_info-m.php) were accessed and downloaded into a map. All pipeline shapefiles were buffered to 5 km, and then the raster was clipped by the buffer, and the values for each county was extracted using zonal statistics at the county level. 
+ 
+### US EPA Environmental Justice Index
+
+Every year, the EPA puts out the [EJScreen](https://www.epa.gov/ejscreen/download-ejscreen-data) environmental justice index is a geodatabase that is at the US Census Tract or Block level. Socio-economics and demographic data are included (for this study, they were not used, as they were present in the Social Determinents of Health spreadsheet). Present data risk includes:  
+
+- Percentage of Houses built before 1960 (lead paint proxy).  
+- Lifetime cancer risk from inhalation of air toxics (NATA).  
+- Air toxics respiratory hazard index.  
+- Diesel particulate matter level in air.  
+- PM2.5 levels in air, µg/m3.  
+- Ozone summer seasonal avg
+- Traffic proximity and volume.  
+- Proximity to RMP sites (chemical spill risk locations).
+- Proximity to TSDFs sites (Haz-mat facilities)
+- Proximity to NPL sites (National Priorities List facilities)  
+- Wastewater discharge.  
+
+### US EPA Safe Water Drinking Data
+
+ 
+The [EPA Safe Water Dashboard](https://ordspub.epa.gov/ords/sfdw/f?p=108%3A200%3A%3A%3A%3A%3A%3A) has a quarterly lookup of the total number of drinking water violations in a specified state, as well as the total amount of nitrate violations, with the average nitrate value. The total amount of quarterly violations were averaged over a one year period, along with the nitrate data values. The data were aggregated by zip code, and then by county.
+
+### US EPA Environmental Quality Index (EQI)
+ 
+As seen above, the EJ Screen contains mostly air quality parameters because of many different data overlap concerns and issues. Prior to the EJScreen, the EPA had an [Environmental Quality Index](https://www.epa.gov/healthresearch/environmental-quality-index-eqi). This index quantified environmental risks into five major categories:  air, water, land, built, and sociodemographic environments, at a county level, calculating and overall principal components value. 
+
+### US EPA Future Scenarios
+
+The US EPA has a [Social Vulnerability Report](https://www.epa.gov/cira/social-vulnerability-report) from their Climate Change Impacts and Research Analysis group. This report breaks down future climate risk by census district from: 
+
+- Air Quality and Health  
+- Extreme Temperature and Health  
+- Extreme Temperature and Labor  
+- Coastal Flooding and Property  
+- Inland Flooding and Property  
+
+These CSV files were cleaned and merged together in R to get average data per county for present and future risks.
+
+## Jobs and Economic Indicators
+ 
+The [Bureau of Economic Analysis](https://apps.bea.gov/itable/index.cfm) has several different values measuring income, jobs, and personal finances at a county level data from 2001-2019.
+
+### Farm Income and Debt to Asset Ratio
+ 
+### Industry Based Job Numbers
+
+Traditionally speaking, rural America relied heavily on manufacturing in proportion to Urban America. The CAEMP25N data table has all of the jobs in each county, from the total jobs (Line Code 10), percentages of each industry were divided by a total, and the linear space time trend (slope), and initial percentages (intercept) were used for economic output in these categories: 
+
+- Farm Jobs (Line Code 70)  
+- Mining Jobs (Line Code 200)  
+- Manufacturing Jobs (Line Code 500)  
+ 
+### Overall Industry Salaries
+
+ 
+## Aqueduct Water Risk Atlas
+
+The World Resources Institute has an [Aqueduct Water Resources](https://www.wri.org/applications/aqueduct/water-risk-atlas) Risk atlas that looks at all of the potential threats that impact water use both currently and in the future. For 2030 and 2040 data, the RMP 8.5 scenario (worst case projections) for the major variables were calculated with zonal statistics in ArcMap 10.8.
+ 
+## Future Economic Data
+
+ 
+Future scenarios from the RMP 8.5, were used from the  "Estimating Economic Damage from Climate Change in the United States" by Hsiang, Kopp, Rising, Jina et al. (2017). There is a [Zenodo repository](https://zenodo.org/communities/economic-damage-from-climate-change-usa/?page=1&size=20) that has the downloadable percentiles (q50 is used in this analysis, as the likely middle ground) from multiple Monte Carlo simulations at the county level for three different time periods (2020-2039), (2040-2059), (2080-2099) for:  
+
+- Future Crop Yields  
+- Violent Crime Futures  
+- Property Crime Futures
+- High Risk Job Hour Lost    
+- Low Risk Job Hour Lost  
+- Age related Mortality  
+- All-age mortality  
+
+ 
+## Land Use Change
+
+ 
+### Percent Cropland Lost and Gained
+
+ 
+The [Resource Watch Land Cover Dataset](https://www.researchsquare.com/article/rs-294463/v1) has 30 m satellite resolution data that looks at cropland gained (from 2000-2003 and 2016-2019) over a 19 year period. Both of these rasters are averaged and clipped to the county level. 
+
+ 
+## 100 Year Floodplain DEM
+ 
+These mapping products were derived through terrain analysis and a technique of pattern classification performed on [hydrologically conditioned DEMs ](https://data.4tu.nl/articles/dataset/100-year_flood_susceptibility_maps_for_the_continental_U_S_derived_with_a_geomorphic_method/12693680/1?file=24033335) by Manfreda, S., and Troy, T.J., in 2017.
+
+
+
 
 
 
