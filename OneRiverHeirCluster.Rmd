@@ -886,6 +886,10 @@ The [Urban Dashboard](https://apps.urban.org/features/debt-interactive-map/?type
 
 [Future Demographic Projections](https://sedac.ciesin.columbia.edu/data/set/popdynamics-us-county-level-pop-projections-sex-race-age-ssp-2020-2100)
 
+### National Risk Index
+
+[FEMA Natural Risk Index](https://hazards.fema.gov/nri/) is an index that calculates overall risk scores, factoring in socio-economic and community resilience data. All of the disasters Annualized Frequency were used for Analysis
+
 ### Opportunity Atlas
 
 [The Opportunity Atlas](https://www.opportunityatlas.org/) measures how parental income impacts social mobility and movement. There are several different prediction factors. 
