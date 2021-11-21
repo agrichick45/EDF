@@ -14,6 +14,8 @@ library(tidyverse)  # data manipulation
 library(cluster)    # clustering algorithms
 library(factoextra) # clustering visualization
 library(dendextend) # for comparing two dendrograms
+library(tree)
+library(maptree)
 ``` 
 
 ```{r}
@@ -23,15 +25,31 @@ countyWater<-read.csv('countyWaterViol.csv')
 totalData<-merge(oneRiver, NASS2017, by.x='FIPSCODE', by.y='FIPS', all.x=TRUE)
 totalData<-merge(totalData, countyWater, by.x='FIPSCODE', by.y= 'GEOINT', all.x=TRUE)
 
-row.names(totalData) <- totalData$FIPSCODE
-#remove the data not needed for clustering
-clustData<-totalData[9:377]
+presEJ<-read.csv("presEJ.csv")
+totalData<-merge(totalData, presEJ, by.x='FIPSCODE', by.y= 'GEOID', all=TRUE)
 
+futEJ<-read.csv("futureEJ.csv")
+totalData<-merge(totalData, futEJ, by.x='FIPSCODE', by.y= 'GEOID', all=TRUE)
+
+NASSTrim<-NASS2017[-c(2:4, 24:27, 34:43, 45, 48:49, 56:59, 63:64, 66, 69:77, 143:144, 146:163)]
+
+NASSEconTrim<-NASSTrim[-c(21:105, 108:110)]
+
+
+row.names(NASSEconTrim) <- NASSEconTrim$GEOID
+#remove the data not needed for clustering
+clustData<-NASSEconTrim
+row.names(clustData) <- clustData$FIPS
+clustData<-clustData[2:20]
 
 #change market value to numeric
 clustData$MARKET_VALUE<-as.numeric(gsub(",", "", clustData$MARKET_VALUE))
 
-clustData[1:369] <- lapply(clustData[1:369], as.numeric)
+clustData$AN_OPER<-as.numeric(gsub(",", "", clustData$AN_OPER))
+
+clustData$AN_OPER<-as.numeric(gsub(",", "", clustData$AN_OPER))
+
+clustData[1:21] <- lapply(clustData[1:21], as.numeric)
 clustData[is.na(clustData)] <- 0
 #Scale the data
 normal<-scale(clustData)
@@ -56,20 +74,141 @@ hc4 <- diana(dist_mat)
 
 hc4$dc
 
-
-hc5 <- hclust(dist_mat, method = "ward.D2" )
+# Ward's method
+hc5 <- hclust(dist_mat, method = "ward.D" )
 
 # Cut tree into 4 groups
-sub_grp <- cutree(hc5, k = 5)
+sub_grp <- cutree(hc5, k = 4)
 plot(hc5, cex = 0.6)
-rect.hclust(hc5, k = 5, border = 2:5)
+rect.hclust(hc5, k = 4, border = 2:5)
+
+
+
 
 # Number of members in each cluster
 table(sub_grp)
 
-clustData<-clustData %>%
-  mutate(cluster = sub_grp)
+clustData<-clustData %>% mutate(cluster = sub_grp)
 
 fviz_cluster(list(data = clustData, cluster = sub_grp))
 
 fviz_nbclust(clustData, FUN = hcut, method = "wss")
+
+```
+
+```{r}
+#Set up for the categorical tree
+clustData$cluster<-as.factor(clustData$cluster)
+tree.cluster = tree(cluster~., data=clustData)
+
+summary(tree.cluster)
+draw.tree(tree.cluster,cex=0.35)
+
+tree.pred = predict(tree.cluster, clustData, type="class")
+
+cv.cluster = cv.tree(tree.cluster, FUN = prune.misclass)
+cv.cluster
+
+prune.cluster = prune.misclass(tree.cluster, best = 12)
+draw.tree(prune.cluster, cex=0.35)
+text(prune.cluster, pretty=0)
+
+#Split into test and training
+set.seed(101)
+train=sample(1:nrow(clustData), 800)
+
+tree.cluster = tree(cluster~., clustData, subset=train)
+
+plot(tree.cluster)
+text(tree.cluster, pretty=0)
+
+tree.pred = predict(tree.cluster, clustData[-train,], type="class")
+
+with(clustData[-train,], table(tree.pred, cluster))
+
+cv.cluster = cv.tree(tree.cluster, FUN = prune.misclass)
+cv.cluster
+
+#9 or 10 models
+prune.cluster = prune.misclass(tree.cluster, best = 8)
+plot(prune.cluster)
+text(prune.cluster, pretty=0)
+```
+
+```{r}
+clustData<-NASSEconTrim
+row.names(clustData) <- clustData$FIPS
+clustData<-clustData[2:20]
+clusters<-clustData$cluster
+clustData$clusters<-clusters
+
+pretrimmedClust<-clustData[c(1, 20)]
+
+pretrimmedClust$MARKET_VALUE<-as.numeric(gsub(",", "", pretrimmedClust$MARKET_VALUE))
+
+
+pretrimmedClust$clusters<-as.factor(pretrimmedClust$clusters)
+tree.trimcluster = tree(clusters~., data=pretrimmedClust)
+
+summary(tree.trimcluster)
+draw.tree(tree.trimcluster,cex=0.35)
+
+```
+
+```{r}
+
+NASSAreaTrim<-NASSTrim[-c(3:35)]
+NASSAreaTrim<-NASSAreaTrim[-c(2, 7:8, 73:77)]
+
+row.names(NASSAreaTrim) <- NASSAreaTrim$FIPS
+
+#remove the data not needed for clustering
+clustAreaData<-NASSAreaTrim
+row.names(clustAreaData) <- clustAreaData$FIPS
+clustAreaData<-clustAreaData[2:69]
+clustAreaData[is.na(clustAreaData)] <- 0
+
+#Scale the data
+normal<-scale(clustAreaData)
+
+dist_mat <- dist(normal, method = 'euclidean')
+
+m <- c( "average", "single", "complete", "ward")
+names(m) <- c( "average", "single", "complete", "ward")
+
+# function to compute coefficient
+ac <- function(x) {
+  agnes(dist_mat, method = x)$ac
+}
+
+map_dbl(m, ac)
+
+
+hc4 <- diana(dist_mat)
+
+hc4$dc
+
+hc5 <- hclust(dist_mat, method = "ward.D" )
+
+# Number of members in each cluster
+table(sub_grp)
+
+clustAreaData<-clustAreaData %>% mutate(cluster = sub_grp)
+
+fviz_cluster(list(data = clustAreaData, cluster = sub_grp))
+
+fviz_nbclust(clustAreaData, FUN = hcut, method = "wss")
+
+
+clustAreaData$cluster<-as.factor(clustAreaData$cluster)
+tree.cluster = tree(cluster~., data=clustAreaData)
+
+summary(tree.cluster)
+draw.tree(tree.cluster,cex=0.35)
+
+cv.cluster = cv.tree(tree.cluster, FUN = prune.misclass)
+cv.cluster
+
+prune.cluster = prune.misclass(tree.cluster, best = 18)
+draw.tree(prune.cluster,cex=0.35)
+text(prune.cluster, pretty=0)

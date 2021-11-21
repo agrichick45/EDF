@@ -828,8 +828,24 @@ Traditionally speaking, rural America relied heavily on manufacturing in proport
  
 ## Aqueduct Water Risk Atlas
 
-The World Resources Institute has an [Aqueduct Water Resources](https://www.wri.org/applications/aqueduct/water-risk-atlas) Risk atlas that looks at all of the potential threats that impact water use both currently and in the future. For 2030 and 2040 data, the RMP 8.5 scenario (worst case projections) for the major variables were calculated with zonal statistics in ArcMap 10.8.
- 
+The World Resources Institute has an [Aqueduct Water Resources](https://www.wri.org/applications/aqueduct/water-risk-atlas) Risk atlas that looks at all of the potential threats that impact water use both currently and in the future in a watershed basin. For 2030 and 2040 data, the RMP 8.5 scenario (worst case projections) for the major variables were calculated with zonal statistics in ArcMap 10.8.  
+
+### Current Water Resources  
+- Baseline Water Stress: 	withdrawals / available flow.  
+- Interannual Variability: 	standard deviation / mean of total annual supply  
+- Seasonal Variability:	standard deviation / mean of total supply calculated using the monthly mean  
+- HFO	Flood Occurrence: Total	# floods 1985-2011  
+-	Drought Severity: mean length x dryness  
+- Upstream Storage: total supply / upstream storage capacity  
+- Groundwater Stress: groundwater withdrawal / sustainable recharge  
+- Return Flow Ratio: upstream non-consumptive use / available flow  
+- Upstream Protected Land:	% total supply originated in protected lands  
+- Access to Water: % population using improved drinking-water sources  
+
+### Future Water Predictions  
+The future data projections used for 2030 and 2040 for the pessimistic RCP8.5 Scenario using 
+
+
 ## Future Economic Data
 
  
@@ -858,8 +874,35 @@ The [Resource Watch Land Cover Dataset](https://www.researchsquare.com/article/r
 These mapping products were derived through terrain analysis and a technique of pattern classification performed on [hydrologically conditioned DEMs ](https://data.4tu.nl/articles/dataset/100-year_flood_susceptibility_maps_for_the_continental_U_S_derived_with_a_geomorphic_method/12693680/1?file=24033335) by Manfreda, S., and Troy, T.J., in 2017.
 
 
+### Overall Debt
+The [Urban Dashboard](https://apps.urban.org/features/debt-interactive-map/?type=overall&variable=pct_debt_collections) chronicles by county:  
+
+- Overall debt in collections  
+- Medical debt  
+- Student loan debt  
+- Auto debts  
+
+### Future Demographic Projections
+
+[Future Demographic Projections](https://sedac.ciesin.columbia.edu/data/set/popdynamics-us-county-level-pop-projections-sex-race-age-ssp-2020-2100)
+
+### Opportunity Atlas
+
+[The Opportunity Atlas](https://www.opportunityatlas.org/) measures how parental income impacts social mobility and movement. There are several different prediction factors. 
+
+### Drought Resisitant Soils
+
+### Geocoded Disasters Dataset
+[Geocoding Disasters Project](https://sedac.ciesin.columbia.edu/data/set/pend-gdis-1960-2018/data-download)
+
+### Water Quality Map for Salinity
+
+[Groundwater Salinity](https://www.epa.gov/water-research/freshwater-explorer)
+
+### School Closure Rates
+
+Common Core of Data (CCD) project tracks [Nonfiscal School Data](https://nces.ed.gov/ccd/files.asp) is available for 
 
 
-
-
-
+## Other References
+The [American Community Survey ](https://www.americancommunities.org/)
